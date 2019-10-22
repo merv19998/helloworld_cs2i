@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>formulaire de categories</title>
+    <link rel="stylesheet" href="uikit/css/uikit.css">
+    <link rel="stylesheet" href="uikit/css/uikit-rtl.css">
+    <link rel="stylesheet" href="uikit/css/uikit-rtl.min.css">
+    <link rel="stylesheet" href="uikit/css/uikit.min.css">
+</head>
+<body>
+    <div class="page">
+        <header>
+            <style>
+                .success{
+                    color: green;
+                }
+                .error{
+                    color: red;
+                }
+            </style>
+        </header>
+                <div id="actionnaire" class="uk-section uk-section-small">
+                    <div class="uk-container">
+                            <div class="uk-card uk-card-default uk-card-body">
+                                <div class="uk-text-center">
+                                    <form  method="POST">
+                                         <fieldset class="uk-fieldset">
+
+                                        <legend class="uk-legend">categories</legend>
+
+                                            <div class="uk-margin">
+                                              <input class="uk-input" type="text" name="categorie" placeholder="Category's name">
+                                            </div>
+                                             <div class="uk-margin">
+                                                <button class="uk-input uk-form-success uk-form-width-medium uk-text-center" type="submit" id='btn'>Ajouter  </button>
+                                            </div>
+                                             <p id="response"></p>
+                                </fieldset>
+                            </form>
+                            <div id="mainmenu" class="uk-section">
+                                <table class="uk-table">
+                                    <tr>
+                                        <th> Label</th>
+                                        <th> </th>
+                                       
+                                    </tr>
+                                    <tr>
+                                       
+                                        <td> </td>
+                                        <td> </td>
+                                    </tr>
+                                    <tr>
+                                        <td> </td>
+                                        <td> </td>
+                                    </tr>
+                                    <tr>
+                                        <td> </td>
+                                        <td> </td>
+                                    </tr>
+                                </table>
+                </fieldset>
+                <hr>
+            </div>
+            
+            <div class="uk-container">
+                <a href="servicesdetail.html">accedez aux details du services</a>
+            </div>
+            <div class="uk-container">
+                <a href="ajoutservices.html">Ajouter un service</a>
+            </div>
+        </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                </div> 
+            </div>
+            </div>
+</body>
+<script src='js/jquery-3.3.1.slim.min.js'>
+
+</script>
+        <script type="text/javascript"> 
+            $(function(){
+            alert("my frist app");
+            $.ajax(function()
+                type:"post",
+                url:"controller/categorieDAOAJAX.php",
+                data="label=text",
+                success:function(response){
+                    $("#response").html(response);
+                    $("#response").add Class("success");
+                }error:function(err)
+                {
+                    $("#response").html (err.statutText);
+                    $("response").add Class("error");
+                }
+            )
+            $("#btn").click(function(){ alert("bravoo") });
+            
+
+                }) 
+        
+        </script>
+
+</html>
