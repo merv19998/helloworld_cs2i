@@ -4,10 +4,10 @@
 
 
 
-# Projet Github / CS2i
+## Projet Github / CS2i
 Bienvenu dans le projet d'apprentisage de Git.
 
-# Les pre-requis
+## Les pre-requis
 Pour evoluer dans le cours, nous avons besoin d'un certain nombre de logiciels
 
 _1. Creer un compte sur Git
@@ -16,12 +16,12 @@ _1. Creer un compte sur Git
 
 
 
-# NOTE GIT
+## NOTE GIT
 
-#	Version : 
+######	Version : 
 Evolution, amélioration, mise à jour, correction, modification. Quitter d’un état à un autre à cause d’un bug.
 
-# Prérequis
+###### Prérequis
 -	Créer un compte sur github « github.com »
 -	Installer Git
 -	Installer Node.js
@@ -32,10 +32,10 @@ Follow :
 @jesseikolo
 @kazaj2237
 
-# Cloner 
+###### Cloner 
 Pour cloner un dossier aller dans le githubdesktop > file > clone repository.
 
-# Commande 
+###### Commande 
 Pull : récupérer les fichiers
 Commit : commentaire et enregistrement des modifications 
 Push : envoyer
