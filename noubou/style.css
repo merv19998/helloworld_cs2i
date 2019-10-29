@@ -1,0 +1,165 @@
+body{
+	font-family: 'century Gothic',calibri,serif;
+	font-size:13px;
+	margin:0px;
+	padding:0px;
+}
+
+h2{
+	font-size:18px;
+	font-weight:normal;
+	text-align:center;
+	
+}
+header{
+	height:40px;
+}
+
+footer{
+	height:50px;
+	padding-top:25px;
+	text-align: center;
+	background-color: #C5C5C5;
+	border-top: 2px solid #4C8;
+
+	}
+	
+nav{
+	width:100%;
+	background-color: #424558;
+	
+}
+nav ul{
+	margin:0px;
+	padding:0px;
+}
+
+nav li{
+	list-style-type:none;
+	float:left;
+}
+nav a{
+	display:inline-block;
+	text-decoration:none;
+	padding:20px 20px 20px 0px;
+	color:#FFF;
+	text-transform:uppercase;
+	font-size:15px;
+}
+.table{
+	display:table;
+	margin:0 auto;
+}
+.index-me:hover, .presentation{
+	border-top: 5px solid #4C8;
+	background-color:RGBa(64, 200, 130, 0.15)
+}
+.exper-me:hover, .parcours{
+	border-top:5px solid #f1dc4f;
+	background-color: RGBa(241, 211, 79, 0.15);
+}
+
+
+.hobb-me:hover, .Competences{
+	border-top:5px solid #0070bb;
+	background-color: RGBa(000, 112, 192, 0.15);
+}
+.cont-me:hover, .Recommendation{
+	border-top:5px solid #e44d26;
+	background-color: RGBa(228, 77, 38, 0.15);
+}
+
+nav li:hover a{
+	padding: 15px 20px 20px 0px;
+}
+
+section{
+	width:100%;
+	min-height:200px;
+	padding-bottom:5px;
+	margin-bottom:5px;
+	
+}
+.sec{
+	margin:0px 5%;
+}
+.left{
+	float:left;
+	width:70%;
+}
+img{
+	width:100px;
+}
+.right{
+	float:left;
+	width:70%
+}
+.cleft,.cright, .sousleft, .sousright{
+	  width:50%;
+	  float:left;
+}
+
+.sec::after, .exp::after, .reco::after{
+	content:"";
+	display:table;
+	clear:both;
+}
+mark{
+	text-color:#4C8;
+}
+
+h1{
+  font:italic normal 17px/30px century Gothic;
+  padding:opx opx 0px 0px;
+  border:4px solid #F00;
+  margin:5px 5px 5px 5px;
+  background:#FFF url('vc-x.jpg') no-repeat scroll top left;
+}
+
+table{
+	border-collapse:collapse;
+	  margin-left:15px;
+}
+td,th{
+	border:1px solid black;
+	padding:20px;
+	  margin-left:15px;
+  	
+}
+caption{
+	color:#F00;
+	font-size:15px;
+	font-weight:bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 780px){
+	header{
+		height:50px;
+	}
+	h1{
+		font-size: 28px;
+		margin: 20px 0px 0px 0px;
+ 	}
+	nav li a{
+		font-size:12px;
+		padding:10px;
+	}
+	nav li:hover a{
+		padding:5px 10px 10px 10px;
+	}
+}
