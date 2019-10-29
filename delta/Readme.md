@@ -1,0 +1,3 @@
+- [] je me nomme TSAGMO DUVALIER DELAROCH
+- [] je suis en bachelor CS2I3 
+- [] je  suis  titulaire du DEC option Reseau et Securite Informatique
