@@ -1,4 +1,6 @@
-# Projet Github / CS2i
+# KAMGA TIANGA ANGE ALEXANDRA CS2i 3 
+
+## Projet Github / CS2i-/
 Bienvenu dans le projet d'apprentisage de Git.
 
 ## Les pre-requis
