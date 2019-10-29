@@ -7,3 +7,21 @@ Pour evoluer dans le cours, nous avons besoin d'un certain nombre de logiciels
 _1. Creer un compte sur Git
 *2. Installer Github Desktop
 
+ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  
+ $ CECI EST UN PROJET CREE PAR NAOUDOUWEL FULBERT éléve ingénieur. en CS2i-Limoge $
+ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+ 
+ 
+        $$$         $$$         $$$             $ $ $ $ $
+        $ $         $ $         $ $           $           $
+        $ $         $ $         $ $          $    
+        $ $         $ $         $ $           $  
+        $ $         $ $$$$$$$$$$$ $             $$$$$
+        $ $         $ $         $ $                   $
+        $ $         $ $$$$$$$$$$$ $                     $          
+        $ $         $ $         $ $                      $      
+        $ $         $ $         $ $           $          $
+        $ $         $ $         $ $           $  $  $  $ 
+        $$$         $$$         $$$
+   
+
