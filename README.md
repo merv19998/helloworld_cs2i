@@ -1,3 +1,9 @@
+# KANMOGNE RAISSA NELVA  "CS2I3"
+
+
+
+
+
 # Projet Github / CS2i
 Bienvenu dans le projet d'apprentisage de Git.
 
@@ -10,7 +16,7 @@ _1. Creer un compte sur Git
 
 
 
-NOTE GIT
+# NOTE GIT
 
 #	Version : 
 Evolution, amélioration, mise à jour, correction, modification. Quitter d’un état à un autre à cause d’un bug.
