@@ -1,4 +1,4 @@
-** KAMGA TCHAMENI Lynda Evangelista**
+** KAMGA TCHAMENI Lynda Evangelista CS2I 3**
 # Projet Github / CS2i
 Bienvenu dans le projet d'apprentisage de Git.
 
